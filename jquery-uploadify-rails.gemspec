@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["reyes.yang@gmail.com"]
   spec.summary       = %q{Package jQuery Uploadify plugin for Rails asset pipeline}
   spec.description   = %q{Package jQuery Uploadify plugin's javascript, stylesheet and images for Rails asset pipeline}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/reyesyang/jquery-uploadify-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
