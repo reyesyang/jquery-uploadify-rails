@@ -36,7 +36,7 @@ Add require directive in your application.css:
 
 ## Release
 
-See [VERSIONS.md] for details.
+See [VERSIONS.md](VERSIONS.md) for details.
 
 ## Contributing
 
