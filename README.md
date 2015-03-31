@@ -34,6 +34,21 @@ Add require directive in your application.css:
  */
 ```
 
+Add images to Rails assets precompile configuration.
+
+For Rails 4.1+, add the following line to update config/assets.rb:
+
+```ruby
+Rails.application.config.assets.precompile += /jquery\-uploadify\/.+\.(?:swf|png)$/
+```
+
+For Rails 3.1+, add the following line to config/application.rb:
+
+```ruby
+config.assets.precompile += /jquery\-uploadify\/.+\.(?:swf|png)$/
+```
+
+
 ## Release
 
 See [VERSIONS.md](VERSIONS.md) for details.
