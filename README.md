@@ -20,6 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
+If your gem version < 1.1.0, Please reference [1.0.2's README.md](https://github.com/reyesyang/jquery-uploadify-rails/blob/v1.0.2/README.md)
+
 Add require directive in your application.js:
 
 ```javascript
@@ -33,21 +35,6 @@ Add require directive in your application.css:
  *= require jquery.uploadify
  */
 ```
-
-Add images to Rails assets precompile configuration.
-
-For Rails 4.1+, add the following line to update config/assets.rb:
-
-```ruby
-Rails.application.config.assets.precompile += /jquery\-uploadify\/.+\.(?:swf|png)$/
-```
-
-For Rails 3.1+, add the following line to config/application.rb:
-
-```ruby
-config.assets.precompile += /jquery\-uploadify\/.+\.(?:swf|png)$/
-```
-
 
 ## Release
 
